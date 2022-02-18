@@ -14,7 +14,10 @@
     "skipLibCheck": true,
     "skipDefaultLibCheck": true,
     "baseUrl": ".",
-    "paths": {}
+    "paths": {
+      "@demo/demo": ["dist/packages/demo"],
+      "@demo/demo/loader": ["dist/packages/demo/loader"]
+    }
   },
   "exclude": ["node_modules", "tmp"]
 }
